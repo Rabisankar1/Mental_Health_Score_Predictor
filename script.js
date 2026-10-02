@@ -1,7 +1,9 @@
 (() => {
   "use strict";
 
-  const API_BASE = "https://mental-health-score-predictor-1-aec2.onrender.com";
+  const API_BASE = atob(
+      "aHR0cHM6Ly9tZW50YWwtaGVhbHRoLXNjb3JlLXByZWRpY3Rvci0xLWFlYzIub25yZW5kZXIuY29t"
+  );
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
